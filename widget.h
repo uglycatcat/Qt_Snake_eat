@@ -3,6 +3,7 @@
 
 #include <QWidget>
 #include "kernel.h"
+#include"QLabel"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -21,5 +22,7 @@ public:
 private:
     Ui::Widget *ui;
     Kernel *kernel;
+    QPushButton *gameButtons[9];
+    QLabel *label;
 };
 #endif // WIDGET_H

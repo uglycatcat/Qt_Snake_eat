@@ -304,6 +304,10 @@ debug/moc_kernel.cpp: ../../kernel.h \
 		../../../../Qt6.7/6.7.2/mingw_64/include/QtCore/qlocale.h \
 		../../../../Qt6.7/6.7.2/mingw_64/include/QtGui/qguiapplication_platform.h \
 		../../../../Qt6.7/6.7.2/mingw_64/include/QtCore/QString \
+		../../../../Qt6.7/6.7.2/mingw_64/include/QtWidgets/Qlabel.h \
+		../../../../Qt6.7/6.7.2/mingw_64/include/QtWidgets/qframe.h \
+		../../../../Qt6.7/6.7.2/mingw_64/include/QtGui/qpicture.h \
+		../../../../Qt6.7/6.7.2/mingw_64/include/QtGui/qtextdocument.h \
 		debug/moc_predefs.h \
 		../../../../Qt6.7/6.7.2/mingw_64/bin/moc.exe
 	E:\Qt\Qt6.7\6.7.2\mingw_64\bin\moc.exe $(DEFINES) --include E:/Qt/Project/Snake_eating/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/debug/moc_predefs.h -IE:/Qt/Qt6.7/6.7.2/mingw_64/mkspecs/win32-g++ -IE:/Qt/Project/Snake_eating -IE:/Qt/Qt6.7/6.7.2/mingw_64/include -IE:/Qt/Qt6.7/6.7.2/mingw_64/include/QtWidgets -IE:/Qt/Qt6.7/6.7.2/mingw_64/include/QtGui -IE:/Qt/Qt6.7/6.7.2/mingw_64/include/QtCore -I. -IE:/Qt/Qt6.7/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IE:/Qt/Qt6.7/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IE:/Qt/Qt6.7/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IE:/Qt/Qt6.7/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IE:/Qt/Qt6.7/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IE:/Qt/Qt6.7/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\..\kernel.h -o debug\moc_kernel.cpp
@@ -500,6 +504,12 @@ debug/moc_widget.cpp: ../../widget.h \
 		../../../../Qt6.7/6.7.2/mingw_64/include/QtWidgets/qpushbutton.h \
 		../../../../Qt6.7/6.7.2/mingw_64/include/QtWidgets/qabstractbutton.h \
 		../../../../Qt6.7/6.7.2/mingw_64/include/QtCore/QString \
+		../../../../Qt6.7/6.7.2/mingw_64/include/QtWidgets/Qlabel.h \
+		../../../../Qt6.7/6.7.2/mingw_64/include/QtWidgets/qframe.h \
+		../../../../Qt6.7/6.7.2/mingw_64/include/QtGui/qpicture.h \
+		../../../../Qt6.7/6.7.2/mingw_64/include/QtGui/qtextdocument.h \
+		../../../../Qt6.7/6.7.2/mingw_64/include/QtWidgets/QLabel \
+		../../../../Qt6.7/6.7.2/mingw_64/include/QtWidgets/qlabel.h \
 		debug/moc_predefs.h \
 		../../../../Qt6.7/6.7.2/mingw_64/bin/moc.exe
 	E:\Qt\Qt6.7\6.7.2\mingw_64\bin\moc.exe $(DEFINES) --include E:/Qt/Project/Snake_eating/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/debug/moc_predefs.h -IE:/Qt/Qt6.7/6.7.2/mingw_64/mkspecs/win32-g++ -IE:/Qt/Project/Snake_eating -IE:/Qt/Qt6.7/6.7.2/mingw_64/include -IE:/Qt/Qt6.7/6.7.2/mingw_64/include/QtWidgets -IE:/Qt/Qt6.7/6.7.2/mingw_64/include/QtGui -IE:/Qt/Qt6.7/6.7.2/mingw_64/include/QtCore -I. -IE:/Qt/Qt6.7/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IE:/Qt/Qt6.7/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IE:/Qt/Qt6.7/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IE:/Qt/Qt6.7/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IE:/Qt/Qt6.7/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IE:/Qt/Qt6.7/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\..\widget.h -o debug\moc_widget.cpp
@@ -716,7 +726,12 @@ debug/kernel.o: ../../kernel.cpp ../../kernel.h \
 		../../../../Qt6.7/6.7.2/mingw_64/include/QtGui/qinputmethod.h \
 		../../../../Qt6.7/6.7.2/mingw_64/include/QtCore/qlocale.h \
 		../../../../Qt6.7/6.7.2/mingw_64/include/QtGui/qguiapplication_platform.h \
-		../../../../Qt6.7/6.7.2/mingw_64/include/QtCore/QString
+		../../../../Qt6.7/6.7.2/mingw_64/include/QtCore/QString \
+		../../../../Qt6.7/6.7.2/mingw_64/include/QtWidgets/Qlabel.h \
+		../../../../Qt6.7/6.7.2/mingw_64/include/QtWidgets/qframe.h \
+		../../../../Qt6.7/6.7.2/mingw_64/include/QtGui/qpicture.h \
+		../../../../Qt6.7/6.7.2/mingw_64/include/QtGui/qtextdocument.h \
+		../../../../Qt6.7/6.7.2/mingw_64/include/QtCore/QDebug
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\kernel.o ..\..\kernel.cpp
 
 debug/main.o: ../../main.cpp ../../widget.h \
@@ -911,6 +926,12 @@ debug/main.o: ../../main.cpp ../../widget.h \
 		../../../../Qt6.7/6.7.2/mingw_64/include/QtWidgets/qpushbutton.h \
 		../../../../Qt6.7/6.7.2/mingw_64/include/QtWidgets/qabstractbutton.h \
 		../../../../Qt6.7/6.7.2/mingw_64/include/QtCore/QString \
+		../../../../Qt6.7/6.7.2/mingw_64/include/QtWidgets/Qlabel.h \
+		../../../../Qt6.7/6.7.2/mingw_64/include/QtWidgets/qframe.h \
+		../../../../Qt6.7/6.7.2/mingw_64/include/QtGui/qpicture.h \
+		../../../../Qt6.7/6.7.2/mingw_64/include/QtGui/qtextdocument.h \
+		../../../../Qt6.7/6.7.2/mingw_64/include/QtWidgets/QLabel \
+		../../../../Qt6.7/6.7.2/mingw_64/include/QtWidgets/qlabel.h \
 		../../../../Qt6.7/6.7.2/mingw_64/include/QtWidgets/QApplication \
 		../../../../Qt6.7/6.7.2/mingw_64/include/QtWidgets/qapplication.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\main.o ..\..\main.cpp
@@ -1107,6 +1128,12 @@ debug/widget.o: ../../widget.cpp ../../widget.h \
 		../../../../Qt6.7/6.7.2/mingw_64/include/QtWidgets/qpushbutton.h \
 		../../../../Qt6.7/6.7.2/mingw_64/include/QtWidgets/qabstractbutton.h \
 		../../../../Qt6.7/6.7.2/mingw_64/include/QtCore/QString \
+		../../../../Qt6.7/6.7.2/mingw_64/include/QtWidgets/Qlabel.h \
+		../../../../Qt6.7/6.7.2/mingw_64/include/QtWidgets/qframe.h \
+		../../../../Qt6.7/6.7.2/mingw_64/include/QtGui/qpicture.h \
+		../../../../Qt6.7/6.7.2/mingw_64/include/QtGui/qtextdocument.h \
+		../../../../Qt6.7/6.7.2/mingw_64/include/QtWidgets/QLabel \
+		../../../../Qt6.7/6.7.2/mingw_64/include/QtWidgets/qlabel.h \
 		ui_widget.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\widget.o ..\..\widget.cpp
 
