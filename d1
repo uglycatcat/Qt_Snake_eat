@@ -1,0 +1,30 @@
+[33mcommit 1947c822b2014d6d8b651515e19e75b663be7f64[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Zote <bgwen586@gmail.com>
+Date:   Sat Jul 20 13:31:24 2024 +0800
+
+    2024/7/20/13/31
+
+[33mcommit 137f2183876c9b9c43be03fa581dd747c953fa74[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Zote <bgwen586@gmail.com>
+Date:   Sat Jul 20 00:38:43 2024 +0800
+
+    2024/7/20/0/38
+
+[33mcommit 502d2fcc62a035828a5bd06975da24d5437dd153[m
+Merge: 333733d e24d9e7
+Author: Zote <bgwen586@gmail.com>
+Date:   Sat Jul 20 00:27:47 2024 +0800
+
+    Merge branch 'main' of https://github.com/uglycatcat/Qt_Snake_eat
+
+[33mcommit 333733db37bb4407bd448835b0f6a889043d41b7[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Zote <bgwen586@gmail.com>
+Date:   Fri Jul 19 23:58:44 2024 +0800
+
+    2024/7/19/23/58
+
+[33mcommit e24d9e7acf5fa02cf5f7e698d39f5fa36a09d194[m
+Author: Zote_TheMighty <130910652+uglycatcat@users.noreply.github.com>
+Date:   Fri Jul 19 23:56:21 2024 +0800
+
+    Initial commit
